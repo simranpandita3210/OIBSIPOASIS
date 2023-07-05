@@ -1,0 +1,3 @@
+pinal,hiral,simran
+10,20,30
+the;name

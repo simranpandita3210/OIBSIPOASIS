@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script> const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+
+// Create gradient
+const gradient = ctx.createLinearGradient(0, 0, 170, 0);
+gradient.addColorStop("0", "magenta");
+gradient.addColorStop("0.5", "blue");
+gradient.addColorStop("1.0", "red");
+
+// Fill with gradient
+ctx.strokeStyle = gradient;
+ctx.lineWidth = 5;
+ctx.strokeRect(20, 20, 150, 100);
+</script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+*{
+   margin:0;
+   padding:0;
+}
+.main{
+    background-image: url(portfolio-background-4.gif);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.navbar{
+    width: 86%;
+    display:flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+ .navbar .logo{
+    width: 160px;
+    cursor:pointer;
+    margin-top: 3px;
+    margin-left: 2px;
+    object-fit: contain;
+    mix-blend-mode:darken;
+    width:15%;
+}
+ul{
+    margin-top: 4px;
+
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(252, 121, 121);
+    margin-top: 3px;
+    transition: 0.3s ease;
+}
+ul li a:hover{
+    background-color:rgb(107, 183, 250);;
+    color: black;
+    border: 5px;
+    border-radius: 10px;
+    padding: 8px;
+}
+.info{
+    margin-left:160px;
+    margin-top: 100px;
+}
+.info h1{
+font-size: 65px;
+color: black;
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-style: italic;
+    font-weight: 50%;
+}
+.info span{
+    color: rgb(98, 180, 251);
+}
+.info a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0px;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 0.5s ease;
+
+}
+.info a:hover{
+    background-color: rgb(107, 183, 250);
+    color: black;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px 5px;
+}
+.image{
+    width:30%;
+    height: 60%;
+    position: absolute;
+    right: 150px;
+    bottom: 0;
+    size: 20%;
+}
+.image img{
+    position: absolute;
+    height: 130%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+    object-fit: contain;
+    mix-blend-mode:darken;
+    }
+

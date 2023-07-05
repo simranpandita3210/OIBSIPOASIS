@@ -1,0 +1,97 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 20px;
+background-color: rgb(206, 240, 244);
+background-image: url(OIP\ \(2\).jpeg);
+height:100vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+h1 {
+color: #c10303;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: xx-large;
+text-decoration-line: underline;
+}
+
+label {
+display: block;
+margin-bottom: 10px;
+color: #21211e;
+font-style: normal;
+font-weight:bold;  
+}
+
+input[type="number"],
+select {
+width: 150px;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-bottom: 10px;
+background-color: rgb(240, 240, 244);
+}
+
+
+input[type="number"],
+select:hover{
+background-color:rgb(189, 189, 244);
+color: #0d0b0b;
+transition: 0.8 ease;
+padding: 50;
+width: 18vh;
+}
+
+button {
+cursor: pointer;
+padding: 10px 20px;
+background-color: #4CAF50;
+color: #fff;
+border: none;
+border-radius: 4px;
+}
+
+button:hover {
+background-color:rgb(86, 86, 236);
+color: #fff;
+transition: 0.5 ease;
+padding: 15px;
+width: 20vh;
+}
+
+#result {
+font-weight: bolder;
+text-align: center;
+}
+
+#temperature{
+width: 30vh;
+padding: 20px;
+background-color:rgb(234, 234, 238);
+text-transform: uppercase;
+font-family: sans-serif;
+font-weight: bolder;
+font-style: italic;
+}
+
+#temperature:hover{
+background-color:rgb(189, 189, 244);
+color: #0d0b0b;
+transition: 0.8 ease;
+padding: 50;
+width: 30vh;
+}
+
+#fromUnit{
+  width: 30vh;
+  padding: 20px;
+}
+
+#toUnit{
+  width: 30vh;
+  padding: 20px;
+}
